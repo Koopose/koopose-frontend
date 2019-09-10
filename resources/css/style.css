@@ -142,7 +142,7 @@ h2:after {
     line-height: 145%;
     width: 70%;
     margin-left: 15%
-    
+
 }
 
 .box p {
@@ -165,9 +165,9 @@ h2:after {
     display: inline-block;
     width: 30px;
     text-align: center;
-    color: #208ec7;    
+    color: #208ec7;
     font-size: 120%;
-    
+
     /* secrets to align text and icons*/
     line-height: 120%;
     vertical-align: middle;
@@ -306,9 +306,9 @@ input[type=submit]:active {
 header {
     background-position: center;
     background-size: cover;
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.27), rgba(0, 0, 0, 0.75)), url(../img/organization_1.jpg);
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.27), rgba(0, 0, 0, 0.49)), url(../img/organization_1.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.27), rgba(0, 0, 0, 0.49)), url(../img/organization_1.jpg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.27), rgba(0, 0, 0, 0.75)), url(../img/droplet.jpg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.27), rgba(0, 0, 0, 0.49)), url(../img/droplet.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.27), rgba(0, 0, 0, 0.49)), url(../img/droplet.jpg);
     height: 100vh;
     background-attachment: fixed;
 }
@@ -555,7 +555,7 @@ header .customShake {
 
 .section-form h2,
 .section-form label {
-    
+
 }
 
 input[type=text],
