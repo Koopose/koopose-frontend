@@ -60,6 +60,12 @@ cite img {
     vertical-align: middle;
 }
 
+@font-face {
+  font-family: SIMPLIFICA;
+  src: url('Fonts\\SIMPLIFICA_Typeface.ttf');
+  font-weight: bold;
+}
+
 
 /* ----- HEADINGS ------ */
 
@@ -84,14 +90,15 @@ h1 {
 }
 
 .name {
-    font-size: 330%;
-    color: white;
-    margin-bottom: 30px;
+    font-family: SIMPLIFICA;
+    font-size: 500%;
+    color: black;
+    /* margin-bottom: 60px; */
 }
 
 .desc {
-    color: white;
-    font-weight: 300;
+    color: black;
+    font-weight: bold;
     font-size: 100%;
     margin-top: 10px;
     margin-bottom: 30px;
@@ -258,7 +265,7 @@ a:active {
 /* ---------------------------- */
 
 .navbar-inverse {
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(232, 232, 232, 0.85);
     padding: 5px;
 }
 
@@ -293,6 +300,10 @@ input[type=submit]:active {
     text-align: center;
 }
 
+.collapse ul.navbar-nav>li>a {
+    color: black;
+}
+
 /* Not important */
 .footer {
   background: #eee;
@@ -306,10 +317,13 @@ input[type=submit]:active {
 header {
     background-position: center;
     background-size: cover;
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.27), rgba(0, 0, 0, 0.75)), url(../img/droplet.jpg);
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.27), rgba(0, 0, 0, 0.49)), url(../img/droplet.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.27), rgba(0, 0, 0, 0.49)), url(../img/droplet.jpg);
+    background-repeat: no-repeat;
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/triangle.jpg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/triangle.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/triangle.jpg);
     height: 100vh;
+    max-width:100%;
+    max-height:100%;
     background-attachment: fixed;
 }
 
@@ -351,10 +365,11 @@ header a:active {
     text-align: center;
     position: absolute;
     width: 80;
-    top: 50%;
+    top: 33%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     left: 50%;
+    font-family: SIMPLIFICA;
 }
 
 header .customShake {
@@ -464,6 +479,7 @@ header .customShake {
 }
 
 .officer_description {
+    font-family: SIMPLIFICA;
     font-size: 110%;
 }
 
