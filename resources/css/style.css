@@ -70,7 +70,6 @@ cite img {
 /* ----- HEADINGS ------ */
 
 
-
 h1, h2, h3 {
     font-weight: 310;
     text-transform: uppercase;
@@ -92,12 +91,54 @@ h1 {
 .name {
     font-family: SIMPLIFICA;
     font-size: 500%;
-    color: black;
+    color: white;
+    font-weight: 1500;
+    letter-spacing: 20px;
+    text-indent: 20px;
+    text-align: 50%;
+
     /* margin-bottom: 60px; */
 }
 
+.letter {
+  align: center;
+}
+
+.ml11 {
+  font-weight: 700;
+  font-size: 3.5em;
+}
+
+.ml11 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml11 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  background-color: white;
+  transform-origin: 0 50%;
+}
+
+.ml11 .line1 {
+  top: 0;
+  left: 0;
+}
+
+.ml11 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
 .desc {
-    color: black;
+    color: white;
     font-weight: bold;
     font-size: 100%;
     margin-top: 10px;
@@ -265,8 +306,10 @@ a:active {
 /* ---------------------------- */
 
 .navbar-inverse {
-    background-color: rgba(232, 232, 232, 0.85);
+    background-color: rgba(255, 255, 255, 1);
     padding: 5px;
+    border-bottom: none;
+    font-family: SIMPLIFICA;
 }
 
 .navbar-brand:first-child {
@@ -281,7 +324,7 @@ a:active {
 
 .nav a:link,
 .nav a:visited,
-input[type=submit] {
+input[type=submit]: {
     background-color: rgba(0, 0, 0, 0);
     color: #aaa;
     -webkit-transition:background-color 0.2s, color 0.2s;
@@ -293,16 +336,17 @@ input[type=submit] {
 input[type=submit]:hover,
 input[type=submit]:active {
     background-color: #000;
-    color: #fff;
+    color: #B2F6FF;
 }
+
 
 .navbar-nav {
     text-align: center;
 }
 
-.collapse ul.navbar-nav>li>a {
+/* .collapse ul.navbar-nav>li>a {
     color: black;
-}
+} */
 
 /* Not important */
 .footer {
@@ -317,14 +361,14 @@ input[type=submit]:active {
 header {
     background-position: center;
     background-size: cover;
+    /* object-position: 0 30px; */
     background-repeat: no-repeat;
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/triangle.jpg);
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/triangle.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/triangle.jpg);
-    height: 100vh;
-    max-width:100%;
-    max-height:100%;
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/plant2.jpg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/plant2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/plant2.jpg);
+    height:100vh;
     background-attachment: fixed;
+
 }
 
 header .js--bounce-arrow {
