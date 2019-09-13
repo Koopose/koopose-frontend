@@ -90,18 +90,12 @@ h1 {
 
 .name {
     font-family: SIMPLIFICA;
-    font-size: 500%;
     color: white;
-    font-weight: 1500;
+    font-weight: 900;
     letter-spacing: 20px;
-    text-indent: 20px;
-    text-align: 50%;
+    text-indent: 10px;
 
     /* margin-bottom: 60px; */
-}
-
-.letter {
-  align: center;
 }
 
 .ml11 {
@@ -115,6 +109,7 @@ h1 {
   padding-top: 0.1em;
   padding-right: 0.05em;
   padding-bottom: 0.15em;
+  margin:auto;
 }
 
 .ml11 .line {
@@ -135,6 +130,10 @@ h1 {
 .ml11 .letter {
   display: inline-block;
   line-height: 1em;
+  text-align: center;
+  font-size: 120%;
+
+
 }
 
 .desc {
@@ -336,9 +335,8 @@ input[type=submit]: {
 input[type=submit]:hover,
 input[type=submit]:active {
     background-color: #000;
-    color: #B2F6FF;
+    color: #B2F6FF !important;
 }
-
 
 .navbar-nav {
     text-align: center;
@@ -363,9 +361,9 @@ header {
     background-size: cover;
     /* object-position: 0 30px; */
     background-repeat: no-repeat;
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/plant2.jpg);
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/plant2.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/plant2.jpg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/cloud3.png);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/cloud3.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/cloud3.png);
     height:100vh;
     background-attachment: fixed;
 

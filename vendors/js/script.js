@@ -83,7 +83,7 @@ $(document).ready(function() {
         opacity: [0.5,1],
         easing: "easeOutExpo",
         duration: 1000,
-        delay: 500
+        delay: 1000
       })
       .add({
         targets: '.ml11 .line',
@@ -101,7 +101,7 @@ $(document).ready(function() {
       }).add({
         targets: '.ml11 .line',
         opacity: 0,
-        duration: 2000,
+        duration: 1000,
         easing: "easeOutExpo",
         delay: 0
       });
